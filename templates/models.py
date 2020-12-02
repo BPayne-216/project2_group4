@@ -1,19 +1,9 @@
 # coding: utf-8
-#pulled SQL tables using sqlacodegen
 from sqlalchemy import BigInteger, Column, Float, ForeignKey, Integer, String, Table, Text
 from sqlalchemy.ext.declarative import declarative_base
 
 Base = declarative_base()
 metadata = Base.metadata
-
-
-t_country_average_temperature = Table(
-    'country_average_temperature', metadata,
-    Column('Country', Text, index=True),
-    Column('Year', BigInteger),
-    Column('NOC', Text),
-    Column('AverageTemperature', Float(53))
-)
 
 
 class NocRegion(Base):
