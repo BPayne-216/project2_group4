@@ -1,29 +1,23 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
 
 <head>
-
   <meta charset="UTF-8">
-  <title>Weather Visualization Dashboard</title>
-
-  <!-- bootstrap stylesheet -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <!-- CSS stylesheet -->
-  <link rel="stylesheet" href="style\style.css">
+  <title>Team</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="static/team.css">
 </head>
-
-<body>
+<body style="background-image: url('image/medals.jpg');">
   <!--Navigation bar-->
   <div class="navigation">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="landing.html">Project 2</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-trasparent">
+      <a class="navbar-brand" href="home.html">Project 2</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <!-- <li class="nav-item active">
           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
@@ -31,24 +25,23 @@
         <li class="nav-item">
           <a class="nav-link" href="#">Link</a>
         </li>-->
-          <li class="nav-item dropdown">
+          <li class="nav-item dropdown ">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
+              aria-haspopup="true" aria-expanded="false" style="color:goldenrod">
               Plots
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="MaxTemperature.html">Heatmap</a>
-              <a class="dropdown-item" href="Humidity.html">Static Hover Map</a>
+              <a class="dropdown-item" href="heat.html">Heatmap</a>
+              <a class="dropdown-item" href="hover.html">Static Hover Map</a>
               <!-- <div class="dropdown-divider"></div>-->
-              <a class="dropdown-item" href="Cloudiness.html">Bars with Selector</a>
-              <a class="dropdown-item" href="WindSpeed.html">something else</a>
+              <a class="dropdown-item" href="bars.html">Bars with Selector</a>
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="comparison.html">Team</a>
+            <a class="nav-link" href="team.html" style="color: goldenrod">Team</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="data.html">Data</a>
+            <a class="nav-link" href="data.html" style="color:goldenrod">Data</a>
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
@@ -57,23 +50,22 @@
         </form>
       </div>
     </nav>
-    
+
   <div class="container">
     <div class="jumbotron">
       <div class="media">
         <div class="media-body">
           <h1 class="mt-4 mb-1">Our Team</ha>
         </div>
-        <img class="ml-3" src="" alt="COVID-19">
       </div>
       
       <hr>
         <div class="row">
             <div class="span12">
-                <img src="" class="about float-left mr-4 mb-4" alt="RP img"/>
+                <img src="image/RP.jpg" class="about float-left mr-4 mb-4" alt="Image"/>
                 <h6>Robert Payne</h6>
-                <p>Front End</p>
-                <p>gggggggggggggggg</p>
+                <p>Frontend</p>
+                <p>fffffffffffffff</p>
                 <a class="btn btn-info" target="_blank" href="https://github.com/chrisbock76" role="button">GitHub</a>
                 <a class="btn btn-info" target="_blank" href="https://www.linkedin.com/in/chrisbock1113" role="button">LinkedIn</a>
             </div>
@@ -81,13 +73,10 @@
         <hr>
         <div class="row">
             <div class="span12">
-                <img src="" class="about float-left mr-4 mb-4" alt="PH Image"/>
+                <img src="image/PH.png" class="about float-left mr-4 mb-4" alt="Image"/>
                 <h6>Paul Han</h6>
-                <p>Front End</p>
-                <p>Collaborative data analyst and problem solver with 15 years of experience in engineering design, 
-                  business analysis, process improvement, and project management. PMI-certified project manager with 
-                  proven skills in leading cross-functional teams. Trained in agile methodology. 
-                  Skilled in summarizing main points and providing recommendations to both tehnical and non-technical groups.</p>
+                <p>Frontend</p>
+                <p>ffffffffffffffffffff</p>
                 <a class="btn btn-info" target="_blank" href="https://github.com/VL14" role="button">GitHub</a>
                 <a class="btn btn-info" target="_blank" href="https://www.linkedin.com/in/vlobas/" role="button">LinkedIn</a>
             </div>
@@ -95,14 +84,10 @@
         <hr>
         <div class="row">
             <div class="span12">
-                <img src="../assets/images/gouthamp_square.jpg" class="about float-left mr-4 mb-4" alt="Image"/>
-                <h6>Goutham Polavaram</h6>
-                <p>I am a student of the Case Western Reserve University Data Analytics Bootcamp. I hold a Bachelor of Science
-                   in Mechanical Engineering from Purdue University, from which I graduated in 2014. 
-                   For 5 years, I have worked as an engineer in the automotive industry for 2 of the Detroit Big 3 in 
-                   Detroit, Michigan. I recently moved back to Cleveland to be closer to my family and to pursue a career in 
-                   Data Science. My hobbies include riding my motorcycle, building RC planes and drones, 3D printing, 
-                   and playing flight simulator games.</p>
+                <img src="image/KB.png" class="about float-left mr-4 mb-4" alt="Image"/>
+                <h6>Kristen Blanchard</h6>
+                <p>Backend</p>
+                <p>fffffffffffff</p>
                 <a class="btn btn-info" target="_blank" href="https://github.com/gpolavaram0" role="button">GitHub</a>
                 <a class="btn btn-info" target="_blank" href="https://www.linkedin.com/in/goutham-polavaram-773577190" role="button">LinkedIn</a>
             </div>
@@ -110,13 +95,10 @@
         <hr>
         <div class="row">
             <div class="span12">
-                <img src="../assets/images/frankie_square.jpg" class="about float-left mr-4 mb-4" alt="Image"/>
-                <h6>Frankie Wong</h6>
-                <p>I was born in Hong Kong and immigrated to the U.S. when I was 9. I graduated from Case Western Reserve 
-                  University in 2018. My interest in computer programming developed during my time as an undergrad studying 
-                  engineering. I wish to keep venturing on this path and continue to master this craft. 
-                  As the world becomes more digital, data becomes more essential in studying and forecasting global trends. 
-                  After the completion of this bootcamp, I wish to enter into a new career path and further explore the world of data.</p>
+                <img src="image/mk.jpg" class="about float-left mr-4 mb-4" alt="Image"/>
+                <h6>Matt Kuhlmann</h6>
+                <p>Backend</p>
+                <p>fffffffffffffffffffffffffffffffff</p>
                 <a class="btn btn-info" target="_blank" href="https://github.com/chunwong7" role="button">GitHub</a>
                 <a class="btn btn-info" target="_blank" href="https://www.linkedin.com/in/chun-wong-771502119" role="button">LinkedIn</a>
             </div>
@@ -132,5 +114,3 @@
 </body>
 
 </html>
-  
-        
