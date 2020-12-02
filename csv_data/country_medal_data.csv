@@ -1,123 +1,123 @@
-,region,NOC,Bronze,Silver,Gold
-0,Afghanistan,AFG,2,0,0
-1,Algeria,ALG,8,2,5
-2,Australia,ANZ,5,4,20
-3,Argentina,ARG,91,91,70
-4,Armenia,ARM,9,2,1
-5,Australia,AUS,491,419,325
-6,Austria,AUT,143,174,104
-7,Azerbaijan,AZE,15,5,6
-8,Bahamas,BAH,10,11,13
-9,Barbados,BAR,1,0,0
-10,Belgium,BEL,171,180,96
-11,Bermuda,BER,1,0,0
-12,Belarus,BLR,63,40,18
-13,Czech Republic,BOH,11,1,0
-14,Brazil,BRA,185,167,73
-15,Bahrain,BRN,1,0,0
-16,Bulgaria,BUL,138,143,54
-17,Canada,CAN,385,412,400
-18,Chile,CHI,20,9,3
-19,China,CHN,250,313,301
-20,Cameroon,CMR,1,1,20
-21,Colombia,COL,11,7,2
-22,Costa Rica,CRC,2,1,1
-23,Croatia,CRO,35,38,51
-24,Cuba,CUB,112,127,159
-25,Czech Republic,CZE,52,27,39
-26,Denmark,DEN,161,231,164
-27,Djibouti,DJI,1,0,0
-28,Dominican Republic,DOM,1,2,3
-29,Egypt,EGY,9,8,7
-30,Eritrea,ERI,1,0,0
-31,Spain,ESP,119,224,101
-32,Estonia,EST,21,12,13
-33,Ethiopia,ETH,17,7,21
-34,Russia,EUN,81,71,127
-35,Finland,FIN,407,263,196
-36,France,FRA,635,551,477
-37,Germany,FRG,233,194,159
-38,UK,GBR,620,680,613
-39,Germany,GDR,281,327,397
-40,Georgia,GEO,14,5,6
-41,Germany,GER,670,619,681
-42,Ghana,GHA,22,1,0
-43,Greece,GRE,81,108,59
-44,Guyana,GUY,1,0,0
-45,Haiti,HAI,5,1,1
-46,China,HKG,1,2,1
-47,Hungary,HUN,364,329,420
-48,Indonesia,INA,13,15,9
-49,India,IND,39,18,138
-50,Individual Olympic Athletes,IOA,2,1,0
-51,Iran,IRI,25,20,15
-52,Ireland,IRL,13,10,9
-53,Iraq,IRQ,1,0,0
-54,Iceland,ISL,2,15,0
-55,Israel,ISR,5,1,1
-56,Italy,ITA,495,489,567
-57,Jamaica,JAM,42,58,27
-58,Japan,JPN,317,292,229
-59,Kazakhstan,KAZ,21,20,17
-60,Kenya,KEN,30,35,28
-61,Kyrgyzstan,KGZ,2,1,0
-62,South Korea,KOR,173,224,201
-63,Saudi Arabia,KSA,5,1,0
-64,Kuwait,KUW,2,0,0
-65,Latvia,LAT,7,14,3
-66,Lebanon,LIB,2,2,0
-67,Liechtenstein,LIE,5,2,2
-68,Lithuania,LTU,43,5,6
-69,Morocco,MAR,11,5,6
-70,Malaysia,MAS,4,4,0
-71,Moldova,MDA,5,3,0
-72,Mexico,MEX,52,23,30
-73,Mongolia,MGL,13,9,2
-74,Macedonia,MKD,1,0,0
-75,Monaco,MON,1,0,0
-76,Mozambique,MOZ,1,0,1
-77,Mauritius,MRI,1,0,0
-78,Netherlands,NED,391,308,265
-79,Nigeria,NGR,28,30,23
-80,Niger,NIG,1,0,0
-81,Norway,NOR,262,356,360
-82,New Zealand,NZL,77,31,84
-83,Pakistan,PAK,34,45,42
-84,Panama,PAN,2,0,1
-85,Philippines,PHI,7,2,0
-86,Poland,POL,240,188,110
-87,Portugal,POR,25,11,4
-88,North Korea,PRK,33,13,14
-89,Puerto Rico,PUR,6,2,0
-90,Qatar,QAT,4,0,0
-91,Romania,ROU,282,198,157
-92,South Africa,RSA,38,40,30
-93,Russia,RUS,360,317,305
-94,Serbia,SCG,26,26,12
-95,Slovenia,SLO,22,9,5
-96,Serbia,SRB,28,2,1
-97,Switzerland,SUI,246,241,163
-98,Suriname,SUR,1,0,1
-99,Slovakia,SVK,13,14,11
-100,Sweden,SWE,521,467,469
-101,Syria,SYR,1,1,1
-102,Czech Republic,TCH,182,225,81
-103,Thailand,THA,11,6,7
-104,Tajikistan,TJK,2,1,0
-105,Togo,TOG,1,0,0
-106,Taiwan,TPE,14,28,2
-107,Trinidad,TTO,16,8,7
-108,Tunisia,TUN,4,3,3
-109,Turkey,TUR,24,24,39
-110,Syria,UAR,1,1,0
-111,Uganda,UGA,2,3,2
-112,Ukraine,UKR,94,44,41
-113,Russia,URS,689,732,1082
-114,Uruguay,URU,30,2,31
-115,USA,USA,1263,1557,2489
-116,Uzbekistan,UZB,10,5,6
-117,Venezuela,VEN,8,2,2
-118,Trinidad,WIF,5,0,0
-119,Serbia,YUG,93,167,130
-120,Zambia,ZAM,1,1,0
-121,Zimbabwe,ZIM,1,4,17
+NOC,region,Bronze,Silver,Gold
+AFG,Afghanistan,2,0,0
+ALG,Algeria,8,2,5
+ANZ,Australia,5,4,20
+ARG,Argentina,91,91,70
+ARM,Armenia,9,2,1
+AUS,Australia,491,419,325
+AUT,Austria,143,174,104
+AZE,Azerbaijan,15,5,6
+BAH,Bahamas,10,11,13
+BAR,Barbados,1,0,0
+BEL,Belgium,171,180,96
+BER,Bermuda,1,0,0
+BLR,Belarus,63,40,18
+BOH,Czech Republic,11,1,0
+BRA,Brazil,185,167,73
+BRN,Bahrain,1,0,0
+BUL,Bulgaria,138,143,54
+CAN,Canada,385,412,400
+CHI,Chile,20,9,3
+CHN,China,250,313,301
+CMR,Cameroon,1,1,20
+COL,Colombia,11,7,2
+CRC,Costa Rica,2,1,1
+CRO,Croatia,35,38,51
+CUB,Cuba,112,127,159
+CZE,Czech Republic,52,27,39
+DEN,Denmark,161,231,164
+DJI,Djibouti,1,0,0
+DOM,Dominican Republic,1,2,3
+EGY,Egypt,9,8,7
+ERI,Eritrea,1,0,0
+ESP,Spain,119,224,101
+EST,Estonia,21,12,13
+ETH,Ethiopia,17,7,21
+EUN,Russia,81,71,127
+FIN,Finland,407,263,196
+FRA,France,635,551,477
+FRG,Germany,233,194,159
+GBR,UK,620,680,613
+GDR,Germany,281,327,397
+GEO,Georgia,14,5,6
+GER,Germany,670,619,681
+GHA,Ghana,22,1,0
+GRE,Greece,81,108,59
+GUY,Guyana,1,0,0
+HAI,Haiti,5,1,1
+HKG,China,1,2,1
+HUN,Hungary,364,329,420
+INA,Indonesia,13,15,9
+IND,India,39,18,138
+IOA,Individual Olympic Athletes,2,1,0
+IRI,Iran,25,20,15
+IRL,Ireland,13,10,9
+IRQ,Iraq,1,0,0
+ISL,Iceland,2,15,0
+ISR,Israel,5,1,1
+ITA,Italy,495,489,567
+JAM,Jamaica,42,58,27
+JPN,Japan,317,292,229
+KAZ,Kazakhstan,21,20,17
+KEN,Kenya,30,35,28
+KGZ,Kyrgyzstan,2,1,0
+KOR,South Korea,173,224,201
+KSA,Saudi Arabia,5,1,0
+KUW,Kuwait,2,0,0
+LAT,Latvia,7,14,3
+LIB,Lebanon,2,2,0
+LIE,Liechtenstein,5,2,2
+LTU,Lithuania,43,5,6
+MAR,Morocco,11,5,6
+MAS,Malaysia,4,4,0
+MDA,Moldova,5,3,0
+MEX,Mexico,52,23,30
+MGL,Mongolia,13,9,2
+MKD,Macedonia,1,0,0
+MON,Monaco,1,0,0
+MOZ,Mozambique,1,0,1
+MRI,Mauritius,1,0,0
+NED,Netherlands,391,308,265
+NGR,Nigeria,28,30,23
+NIG,Niger,1,0,0
+NOR,Norway,262,356,360
+NZL,New Zealand,77,31,84
+PAK,Pakistan,34,45,42
+PAN,Panama,2,0,1
+PHI,Philippines,7,2,0
+POL,Poland,240,188,110
+POR,Portugal,25,11,4
+PRK,North Korea,33,13,14
+PUR,Puerto Rico,6,2,0
+QAT,Qatar,4,0,0
+ROU,Romania,282,198,157
+RSA,South Africa,38,40,30
+RUS,Russia,360,317,305
+SCG,Serbia,26,26,12
+SLO,Slovenia,22,9,5
+SRB,Serbia,28,2,1
+SUI,Switzerland,246,241,163
+SUR,Suriname,1,0,1
+SVK,Slovakia,13,14,11
+SWE,Sweden,521,467,469
+SYR,Syria,1,1,1
+TCH,Czech Republic,182,225,81
+THA,Thailand,11,6,7
+TJK,Tajikistan,2,1,0
+TOG,Togo,1,0,0
+TPE,Taiwan,14,28,2
+TTO,Trinidad,16,8,7
+TUN,Tunisia,4,3,3
+TUR,Turkey,24,24,39
+UAR,Syria,1,1,0
+UGA,Uganda,2,3,2
+UKR,Ukraine,94,44,41
+URS,Russia,689,732,1082
+URU,Uruguay,30,2,31
+USA,USA,1263,1557,2489
+UZB,Uzbekistan,10,5,6
+VEN,Venezuela,8,2,2
+WIF,Trinidad,5,0,0
+YUG,Serbia,93,167,130
+ZAM,Zambia,1,1,0
+ZIM,Zimbabwe,1,4,17
