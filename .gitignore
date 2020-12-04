@@ -131,3 +131,6 @@ dmypy.json
 # passwords
 .passwords.py
 passwords.py
+
+#.DS_Store
+.DS_Store
