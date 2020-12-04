@@ -18,7 +18,7 @@ CREATE TABLE "country_medals" (
     "Gold" INT   NOT NULL
 );
 
-CREATE TABLE "country_average_temperatue" (
+CREATE TABLE "country_average_temperature" (
     "Country" VARCHAR(100)   NOT NULL,
     "Year" INT   NOT NULL,
     "NOC" VARCHAR(10)   NOT NULL,
