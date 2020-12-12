@@ -1,6 +1,6 @@
 // Set Parms
-var svgWidth = 960;
-var svgHeight = 500;
+var svgWidth = 10000;
+var svgHeight = 10000;
 
 
 // The svg
@@ -13,21 +13,29 @@ var svg = d3.select(".map")
 // Map and projection
 var path = d3.geoPath();
 var projection = d3.geoMercator()
-  .scale(70)
-  .center([0,20])
-  .translate([width / 2, height / 2]);
+  .scale(150)
+  .center([0,20]);
 
 // Data and color scale
 var data = d3.map();
-var colorScale = d3.scaleThreshold()
-  .domain([100000, 1000000, 10000000, 30000000, 100000000, 500000000])
-  .range(d3.schemeBlues[7]);
+
 
 // Load external data and boot
-d3.queue()
+worldData = d3.queue()
   .defer(d3.json, "https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson")
-  .defer(d3.csv, "https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world_population.csv", function(d) { data.set(d.code, +d.pop); })
+  
   .await(ready);
+
+medalData = d3.csv("country_medal_data.csv")
+  var toolTip = d3.tip()
+      .attr("class", "tooltip")
+      .offset([80, -60])
+      .html(function(d) {
+        return (`${d.region}<br>Bronze: ${d.Bronze} <br>Silver:${d.Silver} <br>Gold:${d.Gold}`);
+      });
+console.log()
+
+groupData = [medalData, worldData]
 
 function ready(error, topo) {
 
@@ -41,6 +49,7 @@ function ready(error, topo) {
       .duration(200)
       .style("opacity", 1)
       .style("stroke", "black")
+    toolTip.show(data, this)
   }
 
   let mouseLeave = function(d) {
@@ -52,10 +61,15 @@ function ready(error, topo) {
       .transition()
       .duration(200)
       .style("stroke", "transparent")
+    toolTip.hide(data)
   }
+  
 
+  
+
+  
   // Draw the map
-  svg.append("g")
+  groups = svg.append("g")
     .selectAll("path")
     .data(topo.features)
     .enter()
@@ -65,13 +79,14 @@ function ready(error, topo) {
         .projection(projection)
       )
       // set the color of each country
-      .attr("fill", function (d) {
-        d.total = data.get(d.id) || 0;
-        return colorScale(d.total);
-      })
+      .attr("fill", "green")
+      
       .style("stroke", "transparent")
       .attr("class", function(d){ return "Country" } )
       .style("opacity", .8)
       .on("mouseover", mouseOver )
       .on("mouseleave", mouseLeave )
     }
+
+
+    //Opensourced code sourced fromfrom d3-graph-gallery
